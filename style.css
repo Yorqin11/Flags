@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    background: #202C36;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.cnt {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    background: #2B3844;
+    height: 80px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.0562443);
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 80px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.dark-mode-toggle {
+    background: none;
+    border: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.dark-mode-toggle img {
+    width: 20px;
+    height: 20px;
+}
+
+.container p {
+    color: #FFFFFF;
+    width: 80px;
+    height: 22px;
+}
+
+.search-container {
+    margin-top: 48px;
+}
+
+.search {
+    width: 480px;
+    height: 56px;
+    background: #2B3844;
+    box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.0532439);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 0 32px;
+    gap: 24px;
+}
+
+.search img {
+    width: 18px;
+    height: 18px;
+}
+
+.search input {
+    background: none;
+    border: none;
+    color: #FFFFFF;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    width: 100%;
+}
+
+.search input::placeholder {
+    color: #FFFFFF;
+}
+
+.search input:focus {
+    outline: none;
+}
+
+.countries-row {
+    position: absolute;
+    width: 1280px;
+    height: 336px;
+    left: 80px;
+    top: 232px;
+    display: grid;
+    grid-template-columns: repeat(4, 264px);
+    gap: 74px;
+}
+
+.country-card {
+    width: 264px;
+    height: 336px;
+    background: #2B3844;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.0294384);
+}
+
+.country-card img {
+    width: 264px;
+    height: 160px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 24px;
+}
+
+.card-content h2 {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 800;
+    margin: 0 0 16px 0;
+}
+
+
+.card-content strong {
+    font-weight: 600;
+}
